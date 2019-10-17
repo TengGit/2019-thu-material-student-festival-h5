@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,user-scalable=no" />
+<meta charset="utf-8" />
+<title>意料之外</title>
+<link rel="stylesheet" href="style.css" />
+<script type="text/javascript" src="js/preload.min.js"></script>
+<script type="text/javascript" src="js/animate.js"></script>
+<script type="text/javascript" src="js/animate-predefine.js"></script>
+<script type="text/javascript" src="js/story.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
-<h1>
-欢迎参加 2019 清华大学材料学院学生节！
-</h1>
-<h1>
-Welcome to attend the 2019 THU SMSE Student Festival!
-</h1>
-<h2>
-2019-10-26 18:30 @ 大礼堂
-</h2>
+<div class="widget" id="root">
+<div class="background" id="background"></div>
+<div class="progress-container" id="progress-container">
+<div class="centered">
+<span class="progress-loading">Loading...</span>
+<span class="progress-text" id="percent">0%</span>
+</div>
+<div class="progress-border"><div class="progress-bar" id="progress-bar"></div></div>
+</div>
+<div class="widget full" id="start"></div>
+<div class="storyboard" id="storyboard">
+</div>
+</div>
 </body>
 </html>
